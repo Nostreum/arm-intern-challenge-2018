@@ -1,24 +1,15 @@
 # arm-intern-challenge
+
 Arm intern challenge 2019
 
-## JUST FOR DEVELOPMENT
+## Run the server
 
-Start server : 
+```bash
+./run.py
+````
 
-   - Go to web/ folder
+## Usage
 
-   - Start run.py script
-
-   - Open your favorite browser and go to localhost:5000
-
-   - Have fun
-
-Backend : run.py and kd_tree_test.py  
-Frontend : 
-    
-   - web/index.html
-
-   - web/static/mymap.css
-
-   - web/js/mymap.js
-
+1. Access http://localhost:5000 with a web browser
+2. Search schools using the id of an health facility and a radius
+3. Search a city to move the map to this city
