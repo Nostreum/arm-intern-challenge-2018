@@ -15,14 +15,10 @@ function drawHf(coord) {
 function drawSchools() {
     console.log("Printing %d points", regions.length);
 
-    map.eachLayer(function (layer) {
-        map.removeLayer(layer);
-    });
     for(var i = 0; i < regions.length; i++) {
         //console.log(regions[i]);
         L.circle(regions[i], 2, {color: 'red'}).addTo(map);
     }
-    regions = [];
 }
 
 // jquery get request  
